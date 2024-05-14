@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- <ink href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+
+<link rel="shortcut icon" href="favicon-16x16.png"image/x-icon">
+
+    <title>Gamingzone</title>
+
+</head>
+<body>
+    <!-- Header of website -->
+    <header>
+<a href="#" class="logo">Gamingzone</a>
+<ul class="nav">
+<li><a href="#banner">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#games">Games</a></li>
+<li><a href="#tournaments">Tournaments</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<div class="action">
+<div class="searchbox">
+<a href="#"><img src="search.png" alt="search"></a>
+<input type="text" placeholder="Search">
+</div>
+</div>
+ <div class="toggleMenu" onclick="toggleMenu()"></div>
+</header>
+ <!-- Home Banner -->
+<div class="banner" id="banner">
+    <div class="bg">
+    <div class="content">
+        <h2>A new Home for <br>Game Lovers</h2>
+        <p> Dive deep into the gaming universe. Get the latest news, reviews, and guides for your next adventure.</p>
+        <a href="btn">Join Us</a>
+    </div>
+    <img src="score.png" alt="game" >
+</div>
+</div>
+<!-- About  -->
+<div class="about" id="about">
+    <div class="contentBx">
+        <h2>About Us</h2>
+        <p>We're a passionate team of gamers who understand the thrill of discovery, the rush of competition, and the joy of connecting with fellow players. We believe everyone deserves to have a fulfilling gaming experience, whether you're a seasoned veteran or just starting your first adventure. That's why we're dedicated to providing high-quality news, reviews, and guides -  to help you find your perfect game, master your skills, and connect with a vibrant gaming community.</p>
+     <a href="#">Read more</a>
+    </div>
+    <img src="about.jpg" alt="Videogame" style="height: 40%;width:40%;">
+</div>
+<!-- Games -->
+<div class="games"id="games">
+    <h2>Popular Games</h2>
+    <ul>
+        <li class="list active" data-filter="all">All</li>
+        <li class="list " data-filter="Pc">Pc Games</li>
+        <li class="list " data-filter="Mobile">Mobile Games</li>
+    </ul>
+  <div class="cardBx">
+    <div class="card" data-item="Pc">
+        <img src="game1.jpeg" alt="pc games">
+      <div class="content">
+            <h3>Grand Theft Auto</h3>
+            <div class="progress-line"><span></span></div>
+            <div class="info"><p>Pricing <br><span>$10</span></p>
+            <a href="#">Play Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="card" data-item="Mobile">
+        <img src="cod.jpeg" alt="mobile games">
+      <div class="content">
+            <h3>Call Of Duty</h3>
+            <div class="progress-line"><span></span></div>
+            <div class="info"><p>Pricing <br><span>Vary</span></p>
+            <a href="#">Play Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="card" data-item="Pc">
+        <img src="btm.jpeg" alt="pc games">
+      <div class="content">
+            <h3>Batman-Arkham</h3>
+            <div class="progress-line"><span></span></div>
+            <div class="info"><p>Pricing <br><span>$10</span></p>
+            <a href="#">Play Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="card" data-item="Mobile">
+        <img src="coc.jpeg" alt="mobile games">
+      <div class="content">
+            <h3>Clash Of Clans</h3>
+            <div class="progress-line"><span></span></div>
+            <div class="info"><p>Pricing <br><span>$10</span></p>
+            <a href="#">Play Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="card" data-item="Pc">
+        <img src="assas.jpeg" alt="pc games">
+      <div class="content">
+            <h3>Assassin's Creed</h3>
+            <div class="progress-line"><span></span></div>
+            <div class="info"><p>Pricing <br><span>$10</span></p>
+            <a href="#">Play Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="card" data-item="Pc">
+        <img src="spider.jpeg" alt="pc games">
+      <div class="content">
+            <h3>Spider Man</h3>
+            <div class="progress-line"><span></span></div>
+            <div class="info"><p>Pricing <br><span>$10</span></p>
+            <a href="#">Play Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="card" data-item="Pc">
+        <img src="Gow.jpeg" alt="pc games">
+      <div class="content">
+            <h3>God Of War</h3>
+            <div class="progress-line"><span></span></div>
+            <div class="info"><p>Pricing <br><span>$10</span></p>
+            <a href="#">Play Now</a>
+            </div>
+        </div>
+    </div> 
+    
+    <div class="card" data-item="Mobile">
+        <img src="sub.jpeg" alt="mobile games">
+      <div class="content">
+            <h3>Subway Surfers</h3>
+            <div class="progress-line"><span></span></div>
+            <div class="info"><p>Pricing <br><span>free</span></p>
+            <a href="#">Play Now</a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+</div>
+<!-- Tournaments  -->
+<div class="tournaments" id="tournaments">
+    <h2>Live Tournaments</h2>
+    <div class="boxBx">
+        <div class="box">
+            <img src="cod.jpeg" alt="">
+            <div class="content">
+                <h4><span>99+  </span>matches in progress......</h4>
+                <p>Wanna join the squad?  Drop a line in the chat, share your best Warzone moments, and maybe even squad up for a future broadcast!  Don't forget to subscribe to get notified when the next Warzone warfare erupts!</p>
+                <div class="btn">
+                    <a href="#" class="watch">Watch</a>
+                    <a href="#" class="join">Join</a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="game1.jpeg" alt="">
+            <div class="content">
+                <h4><span>30  </span>matches in progress......</h4>
+                <p>Wanna join the crew? Hop in the chat, share your craziest GTA moments, and be part of the Los Santos Lawless fam!  Hit that subscribe button to get notified whenever the next GTA adventure unfolds.</p>
+                <div class="btn">
+                    <a href="#" class="watch">Watch</a>
+                    <a href="#" class="join">Join</a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Gow.jpeg" alt="">
+            <div class="content">
+                <h4><span>68  </span>matches in progress......</h4>
+                <p>Feeling the urge to discuss all things God of War?  Sound off in the chat! Share your favorite moments, theories, and combat strategies. Don't forget to subscribe to be notified whenever the next godly brawl commences!</p>
+                <div class="btn">
+                    <a href="#" class="watch">Watch</a>
+                    <a href="#" class="join">Join</a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="fn.jpeg" alt="">
+            <div class="content">
+                <h4><span>27  </span>matches in progress......</h4>
+                <p>Wanna boogie down with the squad?  Join the party in the chat, share your wildest Fortnite moments, and maybe even win a friendly build battle! Don't forget to subscribe to get notified whenever the next Fortnite adventure unfolds.</p>
+                <div class="btn">
+                    <a href="#" class="watch">Watch</a>
+                    <a href="#" class="join">Join</a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="apex.jpeg" alt="">
+            <div class="content">
+                <h4><span>58  </span>matches in progress......</h4>
+                <p>Wanna join the squad?Jump into the chat, share your best Apex moments, discuss the latest weapon meta, and maybe even find some teammates for future Ranked grinds.Don't forget to subscribe to get notified whenever the next Apex adventure begins!</p>
+                <div class="btn">
+                    <a href="#" class="watch">Watch</a>
+                    <a href="#" class="join">Join</a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="tN.jpeg" alt="">
+            <div class="content">
+                <h4><span>104+  </span>matches in progress......</h4>
+                <p>Non-stop action, insane combos, and mind-blowing mind games - this is Tekken at its finest.  Tune in to see the best of the best battle it out for ultimate glory.  Will your favorite character reign supreme?</p>
+                <div class="btn">
+                    <a href="#" class="watch">Watch</a>
+                    <a href="#" class="join">Join</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- contact page -->
+<div class="contact" id="contact">
+<img src="cn.jpeg" alt="contact">
+<div class="form">
+    <h1>Contact us</h1>
+    <div class="inputBx">
+        <p>Enter Name</p>
+        <input type="text" placeholder="YOUR NAME">
+    </div>
+    <div class="inputBx">
+        <p>Enter Email</p>
+        <input type="text" placeholder="YOUR Mail">
+    </div>
+    <div class="inputBx">
+        <p>Enter Name</p>
+        <textarea  placeholder="Type Here...."></textarea>
+    </div>
+    <div class="inputBx">
+        <p>Enter Name</p>
+        <input type="Submit" name="Submit">
+    </div>
+</div>
+</div>
+<!-- Footer -->
+<footer>
+    <div class="info">
+        <a href="#" class="logo">Gamingzone</a>
+        <p><box-icon name='copyright' style="color: #dbd9d9;"></box-icon> 2024 All Rights reserved To Husnain</p>
+       
+    </div>
+</footer>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script src="index.js"></script>
+
+
+</body>
+</html>
